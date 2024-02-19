@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+*{
+    margin: 0;
+    padding: 0;  
+}
+.sidebar{
+    background-color: rgb(206, 194, 194);
+    width: 14vw;
+    font-family: 'Open Sans',serif;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 20px;
+    padding: 23px;
+}
+.main{
+    width: 90vw;
+    font-size: 12px;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+ /*background-color: rgb(172, 40, 40);*/
+    display: flex;
+    height: 78vh;
+    width: 80vw; 
+    margin: 144px auto; 
+    justify-content: space-around; 
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 70px;
+}
+.name{
+    font-size: 50px;
+}
+.About{
+    font-size: 35px;
+}
+.devpic img{
+    height: 78vh;
+    
+}
